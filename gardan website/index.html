@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden website</title>
+    <!-- ================= css link ================= -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ================ icon ====================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- ================= google fonts ============= -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- ================= bootstrap ================ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+    <!-- ================= icon awesome ============ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- ================= jQuery cdn ============== -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"/>
+</head>
+<body>
+    <!-- ==================== navbar =========== -->
+    <nav>
+        <div class="navbar-1 d-lg-block d-md-block d-sm-none d-none">
+            <div class="container">
+                    <div class="row d-flex align-items-baseline">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class="nav01-icon d-flex  gap-2 ">
+                                    <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                                    <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>
+                                    <i class="fa-brands fa-google-plus-g nav-i3" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class="nav02-cont d-flex  justify-content-end align-items-baseline  gap-2 ">
+                                    <i class="fa-sharp fa-solid fa-phone-volume fa-shake" style="color: #ffffff;"></i>
+                                    <p class="nav-text1 pt-2 ">90164 96761</p>
+                                    <i class="fa-solid fa-envelope fa-shake nav-email " style="color: #ffffff;"></i>
+                                    <p class="nav-text1 pt-2 ">hbhuva051@gmail.com</p>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ===================== header ========== -->
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+              <a class="logo" href="#">
+                <img src="./img/logo.png" alt="" class="logo01">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars" style="color: #015402;"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active hed-text1" aria-current="page" href="#">Home</a>
+                    <div class="undrline"></div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active hed-text2 hed-text1"  aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active hed-text2 hed-text1"  aria-current="page" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active hed-text2 hed-text1"  aria-current="page" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active hed-text2 hed-text1"  aria-current="page" href="#">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active hed-text2 hed-text1"  aria-current="page" href="#">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active hed-text2 hed-text1"  aria-current="page" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- ======================= banner ======= -->
+    <section>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/ban-1 (1).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="ban-text1">It’s Time For You to have</p>
+                    <p class="ban-text2">The Garden of Your Dreams</p>
+                    <p class="ban-text3">Lanscop provides full & comprehensive services in irrigation, landscape , maintenance and professional tree care management.</p>
+                    <button class="ban-btn">Read More</button>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/ban-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="ban-text1">LANSCOP  GARDEN</p>
+                    <p class="ban-text2">If you Want To Be Happy, Plant A Garden</p>
+                    <p class="ban-text3">The Landscop is a full-service grounds care company. Our established systems allow us to deliver industry-leading lawn care and landscape solutions to commercial and residential clients. Built on a family tradition of caring, we are driven by a passion to exceed customer expectations and consistently deliver client satisfaction.</p>
+                    <button class="ban-btn">Read More</button>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/ban-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="ban-text1">LANSCOP  GARDEN</p>
+                    <p class="ban-text2">A Joyful Heart Blooms Year Round</p>
+                    <p class="ban-text3">Starting a garden is one of the most rewarding things one can do. Whether you’re planting fragrant florals or starting a vegetable garden, anyone can benefit from getting their hands a little dirty. But it can be difficult to know where to start</p>
+                    <button class="ban-btn">Read More</button>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div> 
+    </section>
+    <!-- ======================== about us ==== -->
+    <section>
+        <div class="main-about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <p class="ab-text1">WELCOME TO GREENLAWN</p>
+                            <p class="ab-text2">Your oasis home solution since 2000</p>
+                            <p class="ab-text3">Release of Letraset sheets containing desktop Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of passages arsum.<p>
+                            <p class="ab-text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur a erat nam. Facilisis gravida neque convallis a cras. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. In arcu cursus euismod quis viverra nibh cras pulvinar mattis.</p>
+                            <div class="chek01 d-flex gap-3">
+                                <div class="cr rounded-circle d-flex justify-content-center align-items-center"> 
+                                    <i class="fa-solid fa-check chek"></i>
+                                </div>
+                                <p class="ab-text5">Reasonable prices</p>
+                            </div>
+                            <div class="chek01 chek d-flex gap-3">
+                                <div class="cr rounded-circle d-flex justify-content-center align-items-center"> 
+                                <i class="fa-solid fa-check chek"></i>
+                                </div>
+                                <p class="ab-text5">Experienced</p>
+                            </div>
+                            <div class="chek01 d-flex gap-3">
+                                <div class="cr rounded-circle d-flex justify-content-center align-items-center"> 
+                                    <i class="fa-solid fa-check chek"></i>
+                                </div>
+                                <p class="ab-text5">Professional</p>
+                            </div>
+                            <div class="chek01 d-flex gap-3">
+                                <div class="cr rounded-circle d-flex justify-content-center align-items-center"> 
+                                    <i class="fa-solid fa-check chek"></i>
+                                </div>
+                                <p class="ab-text5">Cost effective</p>
+                            </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="main-ab-img d-flex justify-content-center flex-column">
+                            <img src="./img/about-jpg.jpg" class="img-fluid ab-img" alt="">
+                            <div class="ab-btn02 d-flex justify-content-center gap-4">
+                             <button class="ban-btn">
+                                <p>4,490+</p>
+                                <p>Total Projects</p>
+                             </button>
+                             <button class="ban-btn">
+                                <p>6,755+</p>
+                                <p>Happy Clients</p>
+                             </button>     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================== SERVICE =========== -->
+    <section>
+        <div class="container">
+            <div class="row">
+              <div class="col-xl-12">
+                <p class="se-text1 px-4">SERVICE</p>
+                <p class="pr-text1 px-4">Service we offer for your <span class="pr-text2 d-block">landscapes</span></p>
+              </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                          <div class="card-body">
+                            <div class="se-main">
+                              <img src="./img/se-01.jpg" alt="" class="img-fluid  mt-4 rounded">
+                              <p class="se-text2">Mowing Services</p>
+                              <p class="se-text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                              <div class="text-end">
+                              <a href="#" class="se-text4 ">Read more</a>
+                              </div>
+                            </div> 
+                          </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                  <div class="card">
+                        <div class="card-body">
+                          <div class="se-main">
+                            <img src="./img/se-02.jpg" alt="" class="img-fluid  mt-4 rounded">
+                            <p class="se-text2">Trimming Services</p>
+                            <p class="se-text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                            <div class="text-end">
+                            <a href="#" class="se-text4 ">Read more</a>
+                            </div>
+                         </div>
+                        </div>
+                  </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="card">
+                      <div class="card-body">
+                        <div class="se-main">
+                          <img src="./img/se-03.jpg" alt="" class="img-fluid  mt-4 rounded">
+                          <p class="se-text2">Cleanups Services</p>
+                          <p class="se-text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                          <div class="text-end">
+                          <a href="#" class="se-text4 ">Read more</a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- =================== Latest project === -->
+    <section>
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-12">
+                <p class="lp-text1 px-4">Latest <span class="lp-text2">project</span></p>
+              </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                  <div class="card">
+                        <div class="card-body">
+                          <div class="lp-main">
+                            <div class="lp-box1  rounded">
+                              <img src="./img/pr-01.jpg" alt="" class="img-fluid  rounded">
+                             </div>
+                             <p class="se-text2">Royal Garden</p>
+                             <p class="se-text3">Service which is rendered without joy helps neither the servant nor the served. But all otvher pleasures and possessions pale into nothingness before service which is rendered in a spirit of joy.</p>
+                             <div class="lp-rg d-flex align-items-center gap-3">
+                                <img src="./img/test-1.jpg" alt="" class="lp-img01 rounded-circle ">
+                                <div class="lp-text">
+                                  <p class="se-text5 pt-3">Caroline Cooper</p>
+                                  <p class="se-text6">CLIENTS</p>
+                                </div>
+                             </div>
+                          </div>
+                        </div>
+                  </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="card">
+                    <div class="card-body">
+                      <div class="lp-main">
+                        <div class="lp-box1  rounded">
+                          <img src="./img/pr-02.jpg" alt="" class="img-fluid  rounded">
+                         </div>
+                         <p class="se-text2">Garbage To Gardening</p>
+                         <p class="se-text3">Having a business name does not separate the business entity from the owner, which means that the owner of the business is responsible and liable for all debts incurred by the business. </p>
+                         <div class="lp-rg d-flex align-items-center gap-3">
+                          <img src="./img/test-2.jpg" alt="" class="lp-img01 rounded-circle ">
+                          <div class="lp-text">
+                            <p class="se-text5 pt-3">Gabrielle Rose </p>
+                            <p class="se-text6">CLIENTS</p>
+                          </div>
+                       </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="card">
+                    <div class="card-body">
+                      <div class="lp-main">
+                        <div class="lp-box1  rounded">
+                          <img src="./img/pr-03.jpg" alt="" class="img-fluid  rounded">
+                         </div>
+                         <p class="se-text2">Samwise Project</p>
+                         <p class="se-text3">The term is also often used colloquially (but not by lawyers or by public officials) to refer to a company. A company, on the other hand, is a separate legal entity and provides for limited.</p>
+                         <div class="lp-rg d-flex align-items-center gap-3">
+                          <img src="./img/test-3.jpg" alt="" class="lp-img01 rounded-circle ">
+                          <div class="lp-text">
+                            <p class="se-text5 pt-3">Kirti patel</p>
+                            <p class="se-text6">CLIENTS</p>
+                          </div>
+                       </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- ==================== WHY CHOOSE US ==- -->
+    <section>
+      <div class="container">
+              <div class="why">
+                  <div class="row">
+                      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                          <img src="./img/why-img.jpg" alt="" class="img-fluid rounded">
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                          <p class="wh-text1 pt-2">WHY CHOOSE US</p>
+                          <p class="wh-text2">Both the heart and the garden </p>
+                          <p class="wh-text2">may bloom with beauty.</p>
+                          <p class="wh-text3">Nulla ac tortor et sapien sollicitudin vehicula vitae in est.<span class="wh-text">
+                            Nunc et erat semper, sollicitudin leo vel.
+                          </span> </p>
+                          <p class="wh-text4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="wh-text">
+                            Nulla ac tortor et sapien sollicitudin vehicula vitae in est.
+                          </span>Nunc et erat semper, sollicitudin leo vel. </p>
+                          <button class="wh-btn">SEE OUR PLANS</button>
+                      </div>
+                  </div>
+              </div>
+      </div>
+    </section>
+    <!--======================================= -->
+    <section>
+      <div class="container">
+        <div class="seg">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="seg-01">
+                <div class="card position-relative">
+                  <div class="card-body">
+                        <div class="seg-rg rounded-circle position-absolute top-0  translate-middle d-flex justify-content-center align-items-center">
+                            <img src="./icon/🦆 icon _tools_.svg" alt="">
+                        </div>
+                        <p class="seg-text1 pt-5 px-4">High Quality <span class="wh-text">Services</span></p>
+                        <p class="seg-text2 px-4">Lorem ipsum dolor sit am et,<span class="wh-text">consectetur adi piscing elit.</span>Ut elit tell us luctus.</p>
+                  </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="seg-01">
+                <div class="card position-relative">
+                  <div class="card-body">
+                        <div class="seg-rg rounded-circle position-absolute top-0  translate-middle d-flex justify-content-center align-items-center">
+                          <img src="./icon/🦆 icon _coin_.svg" alt="">
+                        </div>
+                        <p class="seg-text1 pt-5 px-4">High Quality <span class="wh-text">Services</span></p>
+                        <p class="seg-text2 px-4">Lorem ipsum dolor sit am et,<span class="wh-text">consectetur adi piscing elit.</span>Ut elit tell us luctus.</p>
+                  </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="seg-01">
+                <div class="card position-relative">
+                  <div class="card-body">
+                        <div class="seg-rg rounded-circle position-absolute top-0  translate-middle d-flex justify-content-center align-items-center">
+                            <img src="./icon/user.svg" alt="">
+                        </div>
+                        <p class="seg-text1 pt-5 px-4">High Quality <span class="wh-text">Services</span></p>
+                        <p class="seg-text2 px-4">Lorem ipsum dolor sit am et,<span class="wh-text">consectetur adi piscing elit.</span>Ut elit tell us luctus.</p>
+                  </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="seg-01">
+                <div class="card position-relative">
+                  <div class="card-body">
+                        <div class="seg-rg rounded-circle position-absolute top-0  translate-middle d-flex justify-content-center align-items-center">
+                            <img src="./icon/Vector.svg" alt="">
+                        </div>
+                        <p class="seg-text1 pt-5 px-4">High Quality <span class="wh-text">Services</span></p>
+                        <p class="seg-text2 px-4">Lorem ipsum dolor sit am et,<span class="wh-text">consectetur adi piscing elit.</span>Ut elit tell us luctus.</p>
+                  </div>
+              </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== Special ======== -->
+    <section>
+          <div class="sp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                            <p class="sp-text1 px-4">What MakesUs </p>
+                            <p class="sp-text2 px-4">Special?</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                              <div class="card">
+                                  <div class="card-body d-flex gap-3">
+                                        <div class="sp-text">
+                                            <p class="sp-text3">400+</p>
+                                            <p class="sp-text4">Sucessful Projects</p>
+                                        </div>
+                                        <img src="./icon/sp-icon-1.svg" alt="" class="img-fluid">
+                                  </div>
+                              </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                          <div class="card">
+                              <div class="card-body d-flex gap-3">
+                                    <div class="sp-text">
+                                        <p class="sp-text3">100%</p>
+                                        <p class="sp-text4">Satisfied Clients</p>
+                                    </div>
+                                    <img src="./icon/sp-icon-2.svg" alt="" class="img-fluid">
+                              </div>
+                          </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                      <div class="card">
+                          <div class="card-body d-flex gap-3">
+                                <div class="sp-text">
+                                    <p class="sp-text3">60+</p>
+                                    <p class="sp-text4">Awards Won</p>
+                                </div>
+                                <img src="./icon/sp-icon-3.svg" alt="" class="img-fluid  sp-icon">
+                          </div>
+                      </div>
+                </div>
+                    </div>
+                </div>
+          </div>
+    </section>
+    <!-- ============ OUR GALLERY ============ -->
+    <section>
+        <div class="container">
+              <div class="row">
+                  <div class="col-xl-12">
+                    <p class="lp-text1 px-4">OUR <span class="lp-text2">GALLERY</span></p>
+                  </div>
+              </div>
+              <div class="row d-flex justify-content-center">
+                      <div class="col-xl-4  col-lg-4 col-md-6 col-sm-12 col-12">
+                              <div class="card">
+                                    <div class="card-body">
+                                        <div class="ga01 rounded">
+                                          <div class="ga-box rounded  d-none d-flex justify-content-center align-items-center">
+                                                <p class="ga-text1">VIEW DETAILS</p>
+                                          </div>
+                                        </div>  
+                                    </div>
+                              </div>
+                      </div>
+
+                      <div class="col-xl-4  col-lg-4 col-md-6 col-sm-12 col-12" >
+                        <div class="card">
+                              <div class="card-body">
+                                  <div class="ga01 ga02 rounded">
+                                    <div class="ga-box rounded  d-none d-flex justify-content-center align-items-center">
+                                          <p class="ga-text1">VIEW DETAILS</p>
+                                    </div>
+                                  </div> 
+                              </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-4  col-lg-4 col-md-6 col-sm-12 col-12" >
+                        <div class="card">
+                              <div class="card-body">
+                                  <div class="ga01 ga03 rounded">
+                                    <div class="ga-box rounded  d-none d-flex justify-content-center align-items-center">
+                                          <p class="ga-text1">VIEW DETAILS</p>
+                                    </div>
+                                  </div> 
+                              </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-4  col-lg-4 col-md-6 col-sm-12 col-12" >
+                        <div class="card">
+                              <div class="card-body">
+                                  <div class="ga01 ga04 rounded">
+                                    <div class="ga-box rounded  d-none d-flex justify-content-center align-items-center">
+                                          <p class="ga-text1">VIEW DETAILS</p>
+                                    </div>
+                                  </div>
+                              </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-4  col-lg-4 col-md-6 col-sm-12 col-12" >
+                        <div class="card">
+                              <div class="card-body">
+                                  <div class="ga01 ga05 rounded">
+                                    <div class="ga-box rounded  d-none d-flex justify-content-center align-items-center">
+                                          <p class="ga-text1">VIEW DETAILS</p>
+                                    </div>
+                                  </div> 
+                              </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-4  col-lg-4 col-md-6 col-sm-12 col-12" >
+                        <div class="card">
+                              <div class="card-body">
+                                <div class="ga01 ga06 rounded">
+                                  <div class="ga-box rounded  d-none d-flex justify-content-center align-items-center">
+                                        <p class="ga-text1">VIEW DETAILS</p>
+                                  </div>
+                                  </div>  
+                              </div>
+                        </div>
+                      </div>
+
+              </div>
+        </div>
+    </section>
+    <!-- =================================== -->
+    <section>
+        <div class="container">
+                  <div class="row">
+                        <div class="col-xl-12">
+                          <p class="lp-text1 px-4">Our <span class="lp-text2">Blog</span></p>
+                        </div>
+                  </div>
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                      <div class="bl-01">
+                        <div class="card mt-4">
+                          <div class="card-body">
+                            <img src="./img/bl-01.jpg" alt="" class="bl-img img-fluid">
+                            <p class="bl-text1 ">November 5, 2022</p>
+                            <p class="bl-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="bl-text3">Lorem ipsum dolor sit amet, consectetur adipiscing  <span class="d-block">
+                              elit. Pellentesque aliquam eget lacus vel varius.
+                            </span> Curabitur…</p>
+                            <a href="#" class="bl-text4">Read More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                      <div class="bl-01">
+                        <div class="card mt-4">
+                          <div class="card-body">
+                            <img src="./img/bl-02.jpg" alt="" class="bl-img img-fluid">
+                            <p class="bl-text1 ">November 5, 2022</p>
+                            <p class="bl-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="bl-text3">Lorem ipsum dolor sit amet, consectetur adipiscing  <span class="d-block">
+                              elit. Pellentesque aliquam eget lacus vel varius.
+                            </span> Curabitur…</p>
+                            <a href="#" class="bl-text4">Read More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                      <div class="bl-01">
+                        <div class="card mt-4">
+                          <div class="card-body">
+                            <img src="./img/bl-03.jpg" alt="" class="bl-img img-fluid">
+                            <p class="bl-text1 ">November 5, 2022</p>
+                            <p class="bl-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="bl-text3">Lorem ipsum dolor sit amet, consectetur adipiscing  <span class="d-block">
+                              elit. Pellentesque aliquam eget lacus vel varius.
+                            </span> Curabitur…</p>
+                            <a href="#" class="bl-text4">Read More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+      </section>
+    <!-- ======================== offer =========== -->
+<section>
+          <div class="time-ban ">
+            <div class="row">
+              
+            </div>
+            <div class="flex">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <div>
+                  <h1 id="num1">250</h1>
+                  <h3>YEARS OF EXPERIENCE</h3>
+               </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <div>
+                  <h1 id="num2">100</h1>
+                  <h3>HAPPY CUSTOMERS</h3>
+                 </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <div>
+                  <h1 id="num3">50</h1>
+                  <h3>PROFESSIONALS </h3>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <div>
+                  <h1 id="num4">10</h1>
+                  <h3>GLOBAL BRANCHES</h3>
+                </div>
+              </div>  
+            </div>
+          </div>  
+</section>
+<!-- ==================== Our team ================ -->
+<section>
+  <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-xl-12">
+          <p class="lp-text1 px-4">OUR <span class="lp-text2">Team</span></p>
+        </div>
+      </div> 
+      <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="card">
+                  <div class="card-body">
+                        <div class="team-1 position-relative">
+                              <div class="tem-text-1 position-absolute bottom-0 start-50 translate-middle-x">
+                                <p class="t-text-1 text-center pt-3">Jackman Smith</p>
+                                <p class="t-text-2 text-center pt-3">Developer</p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="card">
+                  <div class="card-body">
+                        <div class="team-1 team-2 position-relative">
+                              <div class="tem-text-1 position-absolute bottom-0 start-50 translate-middle-x">
+                                <p class="t-text-1 text-center pt-3">Lumber Smith</p>
+                                <p class="t-text-2 text-center pt-3">Gardenist</p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="card">
+                  <div class="card-body">
+                        <div class="team-1 team-3 position-relative">
+                              <div class="tem-text-1 position-absolute bottom-0 start-50 translate-middle-x">
+                                <p class="t-text-1 text-center pt-3">Jackicn Smith</p>
+                                <p class="t-text-2 text-center pt-3">Developer</p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</section> 
+<!-- ============ footer ========= -->
+<footer>
+  <div class="footer-bg">
+      <div class="container">
+                <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                          <img src="./img/logo.png" alt="" class="logo01 f-logo">
+                          <p class="f-text1 pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do   eiusmod tempor incididunt ut labore.</p>
+                          <div class="footer-icon d-flex  justify-content-between">
+                              <div class="f-round d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-facebook-f fac"></i>    
+                              </div>
+                              <div class="f-round d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-google fac"></i>  
+                              </div>
+                              <div class="f-round d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-twitter fac"></i>    
+                              </div>
+                              <div class="f-round d-flex justify-content-center align-items-center">
+                                <i class="fa-regular fa-envelope fac"></i>    
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12 ">
+                            <p class="f-text2 ">PAGE LINKS</p>
+                            <p class="f-text3">Home</p>
+                            <p class="f-text3">About</p>
+                            <p class="f-text3">Services</p>
+                            <p class="f-text3">Blog Post</p>
+                            <p class="f-text3">Case Study</p>
+                            <p class="f-text3 f-taxt4">News</p>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12 ">
+                          <p class="f-text2">QUICKLINKS</p>
+                          <p class="f-text3">Accounting Solution</p>
+                          <p class="f-text3">Accounting</p>
+                          <p class="f-text3">Financial Management</p>
+                          <p class="f-text3">Appliance Accountant</p>
+                          <p class="f-text3">In House Training</p>
+                          <p class="f-text3 f-taxt4">Delivery</p>
+                         </div>  
+                         <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12 ">
+                          <p class="f-text2">TEAM</p>
+                          <p class="f-text3">Our Accountant</p>
+                          <p class="f-text3">Board Management</p>
+                          <p class="f-text3">Testimonial</p>
+                          <p class="f-text3 f-taxt4">Career</p>
+                         </div> 
+                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                          <p class="f-text2">CONTACT INFO</p>
+                          <div class="f-call d-flex gap-3">
+                            <i class="fa-solid fa-phone fc"></i>
+                            <p class="f-text3">9016496761</p>
+                          </div>
+                          <div class="f-call d-flex gap-3">
+                            <i class="fa-regular fa-envelope fc"></i>
+                            <p class="f-text3">yoursite@mail.com</p>
+                          </div>
+                          <div class="f-call d-flex gap-3">
+                            <i class="fa-solid fa-location-dot fc"></i>
+                            <p class="f-text3 f-taxt4">99 Rroving Street, Big City, Pku</p>
+                          </div>
+                         </div>
+                </div>
+      </div>
+  </div>
+</footer>
+</body>
+</html>
+<script>
+  window.onload = ()=>{
+      // $(selector).countMe(delay,speed)
+      $("#num1").countMe(200, 600);
+      $("#num2").countMe(101, 600);
+      $("#num3").countMe(103, 600);
+      $("#num4").countMe(105, 600);
+   }
+  </script>
+
+  
+<!-- === js file -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="././js/count-up-me/count-up-me/res/countMe/countMe.min.js"></script>

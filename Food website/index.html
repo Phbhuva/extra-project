@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiteBliss website</title>
+    <link rel="shortcut icon" href="./icon/icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ========  font link ===== -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- ======= bootstrap ======= -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- ======== icon =========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--======== jQuer cdn ======  -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <!-- ========= AOS =========== -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" class="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">PAGES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./cart/cart.html">SHOP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" >CONTACT US </a>
+              </li>
+            </ul>
+            <form class="d-flex ms-auto gap-4" role="search">
+              <button class="h-btn1">LOGIN</button>
+              <a class="hed-card" aria-current="page" href="./cart/cart.html">
+                <img src="./icon/cart.svg" alt="" class="img-fluid hed-cart ">  
+              </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
+<!-- =========== banner ======== -->
+<section>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/bannar.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-xl-block d-lg-block  d-none">
+             <div class="main-ban-text d-flex gap-5">
+                <div class="bam-text">
+                    <p class="ban-text1"> SUPER DELICIOUS CHEESE</p>
+                    <p class="ban-text2">CHEESE <span class="ban-text3"> PIZZA LIMITED</span></p>
+                    <p class="ban-text4">Extra-virgin olive oil, garlic, mozzarella cheese, onions, mushrooms, green  <span class="ban-text5">olives, black olives, fresh tomatoes.</span> </p>
+                    <button class="ban-btn">ORDER NOW</button>
+                 </div> 
+                 <div class="ban-offer">
+                        <img src="./icon/ban-offer.svg" alt="" class="ban-offer ">
+                 </div>
+             </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<!-- =========  services ======= -->
+<div class="container">
+        <div class="row">
+                <div class="col-xl-12">
+                   <p class="s-text1 text-center"> Services</p>
+                </div>
+        </div>
+        <div class="main-ser ">
+                <div class="row d-flex justify-contant-center">
+                      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                          <div class="s-img1   d-flex flex-column justify-content-center d-flex align-items-center">
+                              <div class="img-h "></div>
+                              <div class="s-img01 ">
+                                  <img src="./img/s-1.png" alt="" class=" s-img">
+                              </div>
+                              <div class="s-main-text   ">
+                              <p class="s-text2 text-center ">SINGLE PRODUCTS</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="s-img1   d-flex flex-column justify-content-center d-flex align-items-center">
+                            <div class="img-h "></div>
+                            <div class="s-img01 ">
+                                <img src="./img/s-2.png" alt="" class=" s-img">
+                            </div>
+                            <div class="s-main-text   ">
+                            <p class="s-text2 text-center ">KIDS MENUS</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="s-img1 d-flex flex-column justify-content-center d-flex align-items-center">
+                            <div class="img-h "></div>
+                            <div class="s-img01 ">
+                                <img src="./img/s-3.png" alt="" class=" s-img">
+                            </div>
+                            <div class="s-main-text   ">
+                            <p class="s-text2 text-center ">SIDES</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="s-img1   d-flex flex-column justify-content-center d-flex align-items-center">
+                            <div class="img-h "></div>
+                            <div class="s-img01 ">
+                                <img src="./img/s-4.png" alt="" class=" s-img">
+                            </div>
+                            <div class="s-main-text   ">
+                            <p class="s-text2 text-center ">BOX MEALS</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="s-img1   d-flex flex-column justify-content-center d-flex align-items-center">
+                            <div class="img-h "></div>
+                            <div class="s-img01 ">
+                                <img src="./img/s-5.png" alt="" class=" s-img">
+                            </div>
+                            <div class="s-main-text   ">
+                            <p class="s-text2 text-center ">BUCKETS</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="s-img1   d-flex flex-column justify-content-center d-flex align-items-center">
+                            <div class="img-h "> </div>
+                            <div class="s-img01 ">
+                                <img src="./img/s-7.png" alt="" class=" s-img">
+                            </div>
+                            <div class="s-main-text   ">
+                            <p class="s-text2 text-center ">SAUCES</p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+        </div>
+</div>
+<!-- =========== -->
+<section>
+  <div class="container">
+        <div class="row">
+              <div class="col-xl-12">
+                  <p class="ab-text1 text-center">About Us</p>
+              </div>
+        </div> 
+        <div class="row d-flex justify-contant-center mt-2">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                      <img src="./img/ab-1.jpg" alt="" class="img-fluid rounded mt-4">
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
+                    <img src="./img/ab-2.png" alt="" class="img-fluid rounded mt-4">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                      <p class="ab-text2 pt-3">We Make The Best Food Restaurant</p>
+                      <p class="ab-text3">We provide you with complete meal prep which includes the prepackaged necessary ingredients for
+                        a divine dinner as well  as an easy to follow recipeAs with the older post, this will be continuously 
+                        updated with edits and comments linked in this post as I cook more recipes, think of more topics to
+                        write about, and find more resources around the internet. This post is currently limited to my own personal
+                        experiences as a meal.</p>
+                      
+                      <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                <div class="ab-main d-flex justify-content-cente  align-items-center gap-3 mt-2">
+                                      <div class="ab-icon d-flex  justify-content-center align-items-center">
+                                            <img src="./icon/ab-1.svg" alt="">
+                                      </div>
+                                      <p class="ab-text4">Fresh Food </p>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <div class="ab-main d-flex justify-content-cente  align-items-center gap-3 mt-2">
+                                    <div class="ab-icon d-flex  justify-content-center align-items-center">
+                                          <img src="./icon/ab-2.svg" alt="">
+                                    </div>
+                                    <p class="ab-text4">Fast Delivery </p>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <div class="ab-main d-flex justify-content-cente  align-items-center gap-3 mt-4">
+                                    <div class="ab-icon d-flex  justify-content-center align-items-center">
+                                          <img src="./icon/ab-3.svg" alt="">
+                                    </div>
+                                    <p class="ab-text4">Quality Maintain </p>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <div class="ab-main d-flex justify-content-cente  align-items-center gap-3 mt-4">
+                                    <div class="ab-icon d-flex  justify-content-center align-items-center">
+                                          <img src="./icon/ab-4.svg" alt="">
+                                    </div>
+                                    <p class="ab-text4">24/7 Service </p>
+                              </div>
+                            </div>
+                      </div>
+                      <button class="ab-btn">ORDER NOW</button>
+                </div>
+        </div> 
+  </div>
+</section>
+<!-- ============= day ============= -->
+<section>
+      <div class="mai-day">
+              <div class="container">
+                        <div class="row d-flex justify-content-center">
+                              <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 ">
+                                        <div class="card rounded">
+                                              <div class="card-body">
+                                                  <div class="main d-flex justify-content-around">
+                                                      <div class="d-text">
+                                                        <p class="d-text2">OTHER</p>
+                                                        <p class="d-text2 ">FLAVORS</p>
+                                                        <p class="d-text3">NEW PHENOMENON</p>
+                                                        <p class="d-text3">BURGER TASTE</p>
+                                                        <p class="d-text4">$12.90</p>
+                                                      </div>
+                                                      <div class="d-img">
+                                                            <img src="./img/day-1.png" alt="" class="img-fluid ">
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                        </div>
+                                </div>
+
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 ">
+                                  <div class="card rounded">
+                                        <div class="card-body dg">
+                                            <div class="main d-flex justify-content-around">
+                                                <div class="d-text">
+                                                  <p class="d-text2">OTHER</p>
+                                                  <p class="d-text2 ">FLAVORS</p>
+                                                  <p class="d-text3">NEW PHENOMENON</p>
+                                                  <p class="d-text3">BURGER TASTE</p>
+                                                  <p class="d-text4 d5">$12.90</p>
+                                                </div>
+                                                <div class="d-img">
+                                                      <img src="./img/day-2.png" alt="" class="img-fluid ">
+                                                </div>
+                                            </div>
+                                        </div>
+                                  </div>
+                               </div>
+
+                               <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 ">
+                                  <div class="card rounded">
+                                        <div class="card-body">
+                                            <div class="main d-flex justify-content-around">
+                                                <div class="d-text">
+                                                  <p class="d-text2">FIND A POCO</p>
+                                                  <p class="d-text2 ">STORE</p>
+                                                  <p class="d-text2 ">NEAR YOU</p>
+                                                </div>
+                                                <div class="d-img">
+                                                      <img src="./img/day-3.png" alt="" class="img-fluid ">
+                                                </div>
+                                            </div>
+                                        </div>
+                                  </div>
+                              </div>
+                        </div>
+              </div>  
+      </div>
+</section>
+<!-- ======== POPULAR DISHES ========= -->
+<section>
+        <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="p-text1 text-center">POPULAR DISHES</p>
+                    </div>
+                </div>
+                <div class="mainp-btn">
+                          <div class="row ">
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
+                                    <div class="card">
+                                        <div class="card-body">
+                                              <button class="p-btn">PIZZA</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
+                                  <div class="card">
+                                        <div class="card-body">
+                                                <button class="p-btn1">SUSHI</button>
+                                        </div>
+                                  </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
+                                    <div class="card">
+                                      <div class="card-body">
+                                              <button class="p-btn1">SALATS</button>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center">
+                                  <div class="card">
+                                    <div class="card-body">
+                                            <button class="p-btn1">DERSEST</button>
+                                    </div>
+                                  </div>
+                                </div>   
+                          </div>
+                </div>
+                <div class="main-pizza">
+
+                </div>
+                <div class="row d-flex justify-content-center">
+                          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-4 " >
+                                <div class="card " >
+                                        <div class="card-body">
+                                                 <i class="fa fa-heart d-flex justify-content-end  like" id="btn3"></i> 
+                                                  <div class="p-bg position-relative">
+                                                  <img src="./img/p-1.png" alt="" class="position-absolute top-0 start-50 translate-middle img-fluid" data-aos="fade-right">
+                                                  </div>
+                                                  <div class="star d-flex  align-items-center gap-3 ">
+                                                    <div class="main-str">
+                                                      <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                      <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                      <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                      <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                      <img src="./icon/star-1.svg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="str-review pt-2">
+                                                        <p class="p-text2">( 2reviews )</p>
+                                                    </div>
+                                                  </div>
+                                                  <p class="p-text3 pt-2">Apricot Chicken 1</p>
+                                                  <p class="p-text4">As hunger-pangs-stricken people, we love pizza to the core, not just because it is easily available but also because of the dreamy world of melting cheese. </p>
+                                                  <div class="p-price d-flex justify-content-between">
+                                                        <div class="price d-flex gap-2">
+                                                            <p class="p-text5">$8.00</p>
+                                                            <p class="p-text6 pt-1">$12.00</p>
+                                                        </div>
+                                                        <div class=" d-flex justify-content-center align-items-center p-cart">
+                                                          <i class="fa fa-basket-shopping cart"></i>
+                                                        </div>
+                                                  </div>
+                                        </div>
+                                        
+                                </div>
+                          </div>
+
+                          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-4">
+                            <div class="card">
+                                    <div class="card-body">
+                                             <i class="fa fa-heart d-flex justify-content-end  like" id="btn3"></i> 
+                                              <div class="p-bg position-relative">
+                                              <img src="./img/p-2.png" alt="" class="position-absolute top-0 start-50 translate-middle img-fluid" data-aos="fade-up">
+                                              </div>
+                                              <div class="star d-flex  align-items-center gap-3 ">
+                                                <div class="main-str">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="str-review pt-2">
+                                                    <p class="p-text2">( 26reviews )</p>
+                                                </div>
+                                              </div>
+                                              <p class="p-text3 pt-2">Veg Sandwich</p>
+                                              <p class="p-text4">This Veg Sandwich, also classically known as the Bombay Sandwich can be made in numerous ways. I mean, if you are in Mumbai city, you will find a different sandwich recipe at every </p>
+                                              <div class="p-price d-flex justify-content-between">
+                                                    <div class="price d-flex gap-2">
+                                                        <p class="p-text5">$4.00</p>
+                                                        <p class="p-text6 pt-1">$10.00</p>
+                                                    </div>
+                                                    <div class=" d-flex justify-content-center align-items-center p-cart">
+                                                      <i class="fa fa-basket-shopping cart"></i>
+                                                    </div>
+                                              </div>
+                                    </div> 
+                            </div>            
+                          </div>
+
+                          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-4">
+                            <div class="card">
+                                    <div class="card-body">
+                                             <i class="fa fa-heart d-flex justify-content-end  like" id="btn3"></i> 
+                                              <div class="p-bg position-relative">
+                                              <img src="./img/p-3.png" alt="" class="position-absolute top-0 start-50 translate-middle img-fluid"  data-aos="fade-down">
+                                              </div>
+                                              <div class="star d-flex  align-items-center gap-3 ">
+                                                <div class="main-str">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-1.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-1.svg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="str-review pt-2">
+                                                    <p class="p-text2">( 51reviews )</p>
+                                                </div>
+                                              </div>
+                                              <p class="p-text3 pt-2">Original Burger 15</p>
+                                              <p class="p-text4">As hunger-pangs-stricken people, we love pizza to the core, not just because it is easily available but also because of the dreamy world of melting cheese. </p>
+                                              <div class="p-price d-flex justify-content-between">
+                                                    <div class="price d-flex gap-2">
+                                                        <p class="p-text5">$9.00</p>
+                                                        <p class="p-text6 pt-1">$11.00</p>
+                                                    </div>
+                                                    <div class=" d-flex justify-content-center align-items-center p-cart">
+                                                      <i class="fa fa-basket-shopping cart"></i>
+                                                    </div>
+                                              </div>
+                                    </div> 
+                            </div>            
+                          </div>
+
+                          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-4">
+                            <div class="card">
+                                    <div class="card-body">
+                                             <i class="fa fa-heart d-flex justify-content-end  like" id="btn3"></i> 
+                                              <div class="p-bg position-relative">
+                                              <img src="./img/p-4.png" alt="" class="position-absolute top-0 start-50 translate-middle img-fluid" data-aos="fade-left">
+                                              </div>
+                                              <div class="star d-flex  align-items-center gap-3 ">
+                                                <div class="main-str">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-1.svg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="str-review pt-2">
+                                                    <p class="p-text2">( 2reviews )</p>
+                                                </div>  
+                                              </div>
+                                              <p class="p-text3 pt-2">Cheese Pizza</p>
+                                              <p class="p-text4">It should be no shocker that a classic is the statistical favorite. Cheese pizza is one of the most popular choices. It will always be a simple, unadorned masterpiece on its own. </p>
+                                              <div class="p-price d-flex justify-content-between">
+                                                    <div class="price d-flex gap-2">
+                                                        <p class="p-text5">$7.00</p>
+                                                        <p class="p-text6 pt-1">$14.00</p>
+                                                    </div>
+                                                    <div class=" d-flex justify-content-center align-items-center p-cart">
+                                                      <i class="fa fa-basket-shopping cart"></i>
+                                                    </div>
+                                              </div>
+                                    </div>
+                            </div>       
+                          </div>
+
+                          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-4">
+                            <div class="card">
+                                    <div class="card-body">
+                                             <i class="fa fa-heart d-flex justify-content-end  like" id="btn3"></i> 
+                                              <div class="p-bg position-relative">
+                                              <img src="./img/p-5.png" alt="" class="position-absolute top-0 start-50 translate-middle img-fluid" data-aos="fade-right">
+                                              </div>
+                                              <div class="star d-flex  align-items-center gap-3 ">
+                                                <div class="main-str">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-1.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-1.svg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="str-review pt-2">
+                                                    <p class="p-text2">( 6reviews )</p>
+                                                </div>  
+                                              </div>
+                                              <p class="p-text3 pt-2">Pene Salmone</p>
+                                              <p class="p-text4">As hunger-pangs-stricken people, we love pizza to the core, not just because it is easily available but also because of the dreamy world of melting cheese. 
+                                               </p>
+                                              <div class="p-price d-flex justify-content-between">
+                                                    <div class="price d-flex gap-2">
+                                                        <p class="p-text5">$5.00</p>
+                                                        <p class="p-text6 pt-1">$12.00</p>
+                                                    </div>
+                                                    <div class=" d-flex justify-content-center align-items-center p-cart">
+                                                      <i class="fa fa-basket-shopping cart"></i>
+                                                    </div>
+                                              </div>
+                                    </div>       
+                            </div>
+                          </div>
+
+                          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-4">
+                              <div class="card">
+                                      <div class="card-body">
+                                              <i class="fa fa-heart d-flex justify-content-end  like" id="btn3"></i> 
+                                                <div class="p-bg position-relative">
+                                                <img src="./img/p-6.png" alt="" class="position-absolute top-0 start-50 translate-middle img-fluid" data-aos="fade-up">
+                                                </div>
+                                                <div class="star d-flex  align-items-center gap-3 ">
+                                                  <div class="main-str">
+                                                    <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                    <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                    <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                    <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                    <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  </div>
+                                                  <div class="str-review pt-2">
+                                                      <p class="p-text2">( 10reviews )</p>
+                                                  </div>  
+                                                </div>
+                                                <p class="p-text3 pt-2">Mushroom Pizza</p>
+                                                <p class="p-text4">This Veg Sandwich, also classically known as the Bombay Sandwich can be made in numerous ways. I mean, if you are in Mumbai city, you will find a different sandwich recipe at every 
+                                                 </p>
+                                                <div class="p-price d-flex justify-content-between">
+                                                      <div class="price d-flex gap-2">
+                                                          <p class="p-text5">$9.00</p>
+                                                          <p class="p-text6 pt-1">$10.00</p>
+                                                      </div>
+                                                      <div class=" d-flex justify-content-center align-items-center p-cart">
+                                                        <i class="fa fa-basket-shopping cart"></i>
+                                                      </div>
+                                                </div>
+                                      </div>       
+                              </div>
+                          </div>
+
+                          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-4">
+                            <div class="card">
+                                    <div class="card-body">
+                                            <i class="fa fa-heart d-flex justify-content-end  like" id="btn3"></i> 
+                                              <div class="p-bg position-relative">
+                                              <img src="./img/p-7.png" alt="" class="position-absolute top-0 start-50 translate-middle img-fluid" data-aos="fade-down">
+                                              </div>
+                                              <div class="star d-flex  align-items-center gap-3 ">
+                                                <div class="main-str">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-1.svg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="str-review pt-2">
+                                                    <p class="p-text2">( 20reviews )</p>
+                                                </div>  
+                                              </div>
+                                              <p class="p-text3 pt-2">Mushroom Pizza</p>
+                                              <p class="p-text4">As hunger-pangs-stricken people, we love pizza to the core, not just because it is easily available but also because of the dreamy world of melting cheese. 
+                                               </p>
+                                              <div class="p-price d-flex justify-content-between">
+                                                    <div class="price d-flex gap-2">
+                                                        <p class="p-text5">$9.00</p>
+                                                        <p class="p-text6 pt-1">$11.00</p>
+                                                    </div>
+                                                    <div class=" d-flex justify-content-center align-items-center p-cart">
+                                                      <i class="fa fa-basket-shopping cart"></i>
+                                                    </div>
+                                              </div>
+                                    </div>       
+                            </div>
+                          </div>
+
+                          
+                          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-4">
+                            <div class="card " >
+                                    <div class="card-body">
+                                            <i class="fa fa-heart d-flex justify-content-end  like" id="btn3"></i> 
+                                              <div class="p-bg position-relative">
+                                              <img src="./img/p-8.png" alt="" class="position-absolute top-0 start-50 translate-middle img-fluid" data-aos="fade-left">
+                                              </div>
+                                              <div class="star d-flex  align-items-center gap-3 ">
+                                                <div class="main-str">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-2.svg" alt="" class="img-fluid">
+                                                  <img src="./icon/star-1.svg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="str-review pt-2">
+                                                    <p class="p-text2">( 2reviews )</p>
+                                                </div>  
+                                              </div>
+                                              <p class="p-text3 pt-2">Pepperoni Pizza</p>
+                                              <p class="p-text4">pepperoni just isn’t enough, and you’re looking for a pie with a bit more heft, a meat pizza is a perfect and popular choice. Pile on ground beef and sausage for a hearty meal.
+                                               </p>
+                                              <div class="p-price d-flex justify-content-between">
+                                                    <div class="price d-flex gap-2">
+                                                        <p class="p-text5">$7.00</p>
+                                                        <p class="p-text6 pt-1">$14.00</p>
+                                                    </div>
+                                                    <div class=" d-flex justify-content-center align-items-center p-cart">
+                                                      <i class="fa fa-basket-shopping cart"></i>
+                                                    </div>
+                                              </div>
+                                    </div>       
+                            </div>
+                          </div>
+        </div>
+</section>
+<!-- =========== Why our Pizza best? ======== -->
+<section>
+      <div class="container">
+            <div class="row d-flex justify-content-center">
+                  <div class="col-xl-12">
+                      <p class="w-text1 text-center">Why our Pizza best?</p>
+                  </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                      <div class="w-1">
+                        <p class="w-text2" > 01</p>
+                        <p class="w-text3">The highest quality</p>
+                        <p class="w-text4">Crasut nislac sapien interdum scele 
+                        <span class="d-block"> risque sed in elit rutrum.</span> </p>
+                      </div>
+
+                      <div class="w-1">
+                        <p class="w-text2" > 03</p>
+                        <p class="w-text3">Finest Taste</p>
+                        <p class="w-text4">Vintage & rare watches, & other things. Anything for sale   risque sed in elit rutrum. </p>
+                      </div>
+                    </div> 
+                    
+                    <div class="col-xl-6 col-lg-6 col-md-3 col-sm-12 d-flex justify-contant-center align-items-center">
+                      <div class="w-img-1">
+                          <img src="./img/pizza-1.png" alt="" class="img-fluid w-img1"  >
+                      </div>
+    
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                      <div class="w-1">
+                        <p class="w-text2 text-end" data-aos="fade-left"> 02</p>
+                        <p class="w-text3 text-end">The best ingredient</p>
+                        <p class="w-text4 text-end">Discover the best ingredients for 
+                        <span class="d-block text-end"> your skin at Conscious Chemist.</span> </p>
+                      </div>
+
+                      <div class="w-1">
+                        <p class="w-text2 text-end" data-aos="fade-left"> 04</p>
+                        <p class="w-text3 text-end">Finest Taste</p>
+                        <p class="w-text4 text-end">Some native speakers say that well cooked means delicious, properly cooked. </p>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+      </div>
+</section>
+<!-- ========  sub banner ======= -->
+  <section>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide mt-5">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./img/sub-banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+                  <p class="sb-text1">WE GUARANTEE</p>
+                  <p class="sb-text2">30 MINUTES  <span class="d-block">DELIVERY!</span></p>
+                  <p class="sb-text3  d-none d-md-block">If you're having a meeting, working late at night and need  <span class="d-block">an extra push. Let us know and we will be there</span></p>
+                  <button class="sb-btn  d-none d-md-block">ORDER NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- =======  Our Latest News ====== -->
+<section>
+      <div class="container">
+            <div class="row d-flex justify-content-center">
+                  <div class="col-xl-12">
+                      <p class=" w-text1 text-center ">Our Latest News</p>
+                  </div>
+            </div>
+            <div class="main-news">
+              <div class="row d-flex justify-content-center">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                  <div class="card">
+                    <img src="./img/ne-1.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body"> 
+                      <p class="ne-text1">MARCH 02, 2023, PEPPERONI PIZZA</p>
+                      <p class="ne-text2">Ultimate Yummy Veg Pizza are Made Here</p>
+                      <p class="ne-text3">Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum dui....</p>
+                      <p class="ne-text4">Read More</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                  <div class="card">
+                    <img src="./img/ne-2.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body"> 
+                      <p class="ne-text1">MARCH 02, 2023, PEPPERONI PIZZA</p>
+                      <p class="ne-text2">Ultimate Yummy Veg Pizza are Made Here</p>
+                      <p class="ne-text3">Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum dui....</p>
+                      <p class="ne-text4">Read More</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                  <div class="card">
+                    <img src="./img/ne-3.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body"> 
+                      <p class="ne-text1">MARCH 02, 2023, PEPPERONI PIZZA</p>
+                      <p class="ne-text2">Ultimate Yummy Veg Pizza are Made Here</p>
+                      <p class="ne-text3">Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum dui....</p>
+                      <p class="ne-text4">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+</section>
+<!-- ================= -->
+<section>
+      <div class="container-fluid">
+                <marquee behavior="scroll" direction="left">
+                  <p class="nl-text1">NewsLatter - SUBSCRIBE - FOLLOW NewsLatter - SUBSCRIBE - FOLLOW</p>
+                </marquee>
+      </div>
+</section>
+<!-- ===== offer ======== -->
+<section>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./img/news latter.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+                <p class="nl-text2">JOIN FOR HOT OFFERS</p>
+                <center>
+                  <p class="nl-text3">If we go all out… We do it well! Subscribe to the newsletter
+                 <span class="d-block">to get the most exclusive promos.</span></p>
+                </center>
+                <form id = "basic-form" action="" method="post"> 
+                      <div class="nl-email d-flex justify-content-center gap-5 ">
+                          <input type="Emai" class="email-box" placeholder="Email">
+                          <button  class="nl-btn">Confirm identity</button>
+                      </div>
+                  </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--======== team =========-->
+<section>
+    <div class="container">
+          <div class="row">
+                <div class="col-xl-12">
+                    <p class=" w-text1 text-center ">Meet Our Team</p>
+                </div>
+                  <div class="main-team">
+                      <div class="row d-flex justify-content-center">
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                              <div class="card">
+                                <img src="./img/t-1.jpg" class="card-img-top rounded" alt="..." >
+                                <div class="card-body">
+                                    <p class="t-text1 text-center">Cathy Aenderson</p>
+                                    <p class="t-text2 text-center">Chief Executive</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                              <div class="card">
+                                <img src="./img/t-2.jpg" class="card-img-top rounded" alt="..."   ">
+                                <div class="card-body">
+                                    <p class="t-text1 text-center">Mike Dooley</p>
+                                    <p class="t-text2 text-center">Executive</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                              <div class="card">
+                                <img src="./img/t-3.jpg" class="card-img-top rounded" alt="..." 
+                        
+                                                               >
+                                <div class="card-body">
+                                    <p class="t-text1 text-center">Alextina Jimiey</p>
+                                    <p class="t-text2 text-center">Food Inspector</p>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+          </div>
+    </div>
+</section>
+<footer>
+      <div class="footer-bg">
+            <div class="container">
+                    <div class="row d-flex justify-content-center">
+                          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 mt-4">
+                                <img src="./img/logo.png" alt="" class="img-fluid">
+                                <p class="f-text1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                          </div>
+                          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 mt-4 ">
+                              <p class="f-text2">SUPPORT</p>
+                              <p class="f-text3">Help & Contact Us</p>
+                              <p class="f-text3">Return & Refunds</p>
+                              <p class="f-text3">Online Stores</p>
+                              <p class="f-text3">Contact</p>
+                              <p class="f-text3">Privacy Policy</p>
+                          </div>
+                          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 mt-4 ">
+                            <p class="f-text2">My orders</p>
+                            <p class="f-text3">BURGERS</p>
+                            <p class="f-text3">Gift Offers</p>
+                            <p class="f-text3">KINGDELIGHTPRODUCTS</p>
+                            <p class="f-text3">CRISPY FLAVORS</p>
+                            <p class="f-text3">BREAKFAST PRODUCTS</p>
+                          </div>
+                          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 mt-4 ">
+                            <p class="f-text2">Our Service</p>
+                            <p class="f-text3">Payment Methods</p>
+                            <p class="f-text3">Free Shipping From 75</p>
+                            <p class="f-text3">Delivery in 30Minutes</p>
+                            <p class="f-text3">Birthday Parties</p>
+                            <p class="f-text3">Online Order</p>
+                          </div>
+                          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 mt-4 ">
+                            <p class="f-text2">CONTACT US</p>
+                            <p class="f-text3">202 Helga Springs Rd, Crawford, TN 38554</p>
+                            <p class="f-text3">Call Us: 800.275.8777</p>
+                            <p class="f-text3">BiteBliss@company.com</p>
+                          </div>
+                    </div>
+            </div>
+      </div>
+</footer>
+<!-- ===== back to top === -->
+<a id="button" class="d-xl-block d-lg-block d-md-none d-sm-none d-none">
+  <img src="./img/arrow-up.png" alt="">
+</a>
+<script src="./index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
