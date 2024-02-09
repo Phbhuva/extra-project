@@ -18,9 +18,6 @@
   font-weight: 800;
   color: black;
 }
-.nv-bg .homep {
-  text-decoration: underline;
-}
 .nv-bg .navbar-toggler {
   height: 40px !important;
   width: 40px !important;
@@ -35,6 +32,10 @@
   border: 2px solid black;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
 }
 
 .carousel-caption {
@@ -144,6 +145,10 @@
   width: 30px;
   background-color: rgba(175, 175, 175, 0.3215686275);
   border-radius: 8px;
+}
+
+.nav-item a {
+  text-decoration: none !important;
 }
 
 .sp-text1 {

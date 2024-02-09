@@ -38,9 +38,6 @@
         @include subtitle(16px,800);
         color: black;   
     }
-    .homep{
-        text-decoration: underline;
-    }
         .navbar-toggler{
             height: 40px !important;
             width: 40px !important;
@@ -48,9 +45,13 @@
             box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
             border: none !important;
         }
-        .btn-01{
-            @include btn();
-        }
+            .btn-01{
+                @include btn();
+                text-decoration: none;
+                text-align: center;
+                padding-top: 10px;
+                color: black;
+            }
 }
 // ========== banner ========= //
 .carousel-caption{
@@ -129,6 +130,11 @@
     width: 30px;
     background-color: #afafaf52;
     border-radius: 8px;
+}
+.nav-item{
+    a{
+        text-decoration: none !important;
+    }
 }
 // ==============//
 .sp-text1{
