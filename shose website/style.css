@@ -357,6 +357,9 @@
 .main-footer .f-text5 {
   margin-bottom: 40px;
 }
+.main-footer .f-text6 {
+  margin-top: 38px !important;
+}
 
 .so-bn {
   opacity: 0.5;
